@@ -13,6 +13,10 @@
     "invoke-local": "sls invoke local --stage production --function arbitrageur",
     "deploy": "npm run build && sls deploy --aws-s3-accelerate --stage production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stkanch/Aranar"
+  },
   "author": "Stkanch",
   "license": "MIT",
   "dependencies": {
